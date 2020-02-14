@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  freemarker:
+    # 模板存放路径（默认为classpath:/templates/）
+    template-loader-path: classpath:/templates/
+    # 是否开启缓存，生产环境建议开启。
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    suffix: .html
