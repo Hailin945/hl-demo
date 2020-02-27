@@ -1,0 +1,10 @@
+<beans>
+    <bean id="course" class="hl.springframework.beans.pojo.Course">
+        <property name="name" value="spring"/>
+    </bean>
+
+    <bean name="student" class="hl.springframework.beans.pojo.Student">
+        <property name="name" value="WeiWuXian"/>
+        <property name="course" ref="course"/>
+    </bean>
+</beans>
