@@ -22,3 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 target/
 hl-spring-demo/target/
+src/main/java/com/hl/multithreading/service/
+src/main/resources/static/
+src/main/resources/templates/
+src/test/java/hl/

@@ -1,0 +1,9 @@
+<!ELEMENT book (name,author,role+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author EMPTY>
+<!ELEMENT role ANY>
+
+<!ATTLIST author name ID #REQUIRED>
+<!ATTLIST author sex CDATA #FIXED "男">
+<!ENTITY authorSanGuoYanYi "罗贯中">
+

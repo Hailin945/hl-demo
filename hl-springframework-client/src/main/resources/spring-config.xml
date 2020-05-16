@@ -1,10 +1,12 @@
 <beans>
-    <bean id="course" class="hl.springframework.beans.pojo.Course">
-        <property name="name" value="spring"/>
+    <bean id="user" class="hl.pojo.User">
+        <property name="name" value="张小凡"/>
+        <property name="sex" value="男"/>
+        <property name="age" value="20"/>
     </bean>
-
-    <bean name="student" class="hl.springframework.beans.pojo.Student">
-        <property name="name" value="WeiWuXian"/>
-        <property name="course" ref="course"/>
+    <bean name="product" class="hl.pojo.Product">
+        <property name="name" value="华为P30"/>
+        <property name="type" value="手机"/>
+        <property name="price" value="3800"/>
     </bean>
 </beans>

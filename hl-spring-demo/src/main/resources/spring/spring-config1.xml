@@ -1,0 +1,14 @@
+<xsd:schema xmlns="http://www.springframework.org/schema/beans"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.springframework.org/schema/beans"
+            elementFormDefault="qualified"
+            attributeFormDefault="qualified">
+    <xsd:element name="beans">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="beans"/>
+            </xsd:sequence>
+            <xsd:attribute name="profile" type="xsd:string"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

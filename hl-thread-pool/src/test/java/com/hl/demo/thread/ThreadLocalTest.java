@@ -10,7 +10,7 @@ public class ThreadLocalTest {
 
     @Test
     public void test() {
-
+        // Stack
         User user = new User();
         ThreadLocal<String> username = new ThreadLocal<>();
         username.set("Jack");
