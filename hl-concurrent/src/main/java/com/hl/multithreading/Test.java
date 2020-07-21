@@ -1,5 +1,7 @@
 package com.hl.multithreading;
 
+import com.hl.multithreading.introspector.User;
+
 import java.util.Scanner;
 
 /**
@@ -7,6 +9,10 @@ import java.util.Scanner;
  * @date 2020/2/27
  */
 public class Test {
+
+    public void test() {
+        ThreadLocal<User> threadLocal = new ThreadLocal<User>();
+    }
 
     public static int getLastWordLength(String s){
         String[] strArray = s.split(" ");

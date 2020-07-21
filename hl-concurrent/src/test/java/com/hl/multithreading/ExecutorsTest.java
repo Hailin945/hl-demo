@@ -1,4 +1,4 @@
-package com.hl.multithreading.thread.pool;
+package com.hl.multithreading;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * @author Hailin
  * @date 2019/12/24
  */
-public class ThreadPoolExecutorTest {
+public class ExecutorsTest {
 
     /**
      * 创建一个可根据需要创建新线程的线程池，但是在以前构造的线程可用时将重用它们。
