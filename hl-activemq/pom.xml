@@ -17,7 +17,7 @@
 
     <properties>
         <activemq-all-version>5.15.10</activemq-all-version>
-        <junit-version>4.12</junit-version>
+        <junit-version>4.13.1</junit-version>
     </properties>
     <dependencyManagement>
         <dependencies>
